@@ -75,8 +75,8 @@ def SumbitRoute():
         session['ccv'] = ccv
         print("succesful!!")
 
-        requests.get("http://localhost:8080/?name={name}")
-        return redirect()
+        requests.get("http://localhost:8080/?name="+name)
+        return redirect('http://google.com')
     else:
         return redirect("/#one of the details is incorrect, please try again")
 app.run(host="127.0.0.1" ,port=3000, debug=True)
